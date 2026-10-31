@@ -1,12 +1,37 @@
 # dsh-ps2-hanhua
 
+[![npm version](https://img.shields.io/npm/v/dsh-ps2-hanhua.svg)](https://www.npmjs.com/package/dsh-ps2-hanhua)
+[![license](https://img.shields.io/npm/l/dsh-ps2-hanhua.svg)](LICENSE)
+[![downloads](https://img.shields.io/npm/dm/dsh-ps2-hanhua.svg)](https://www.npmjs.com/package/dsh-ps2-hanhua)
+
 一个给 AI 用的 **PS2 游戏汉化向导技能**。
 
 不是自动翻译机，是陪你把汉化流程走完的助手：每一步先问清楚，绝不擅自替你做决定。
 
 ---
 
-## 这是什么
+## 一行命令装好
+
+```bash
+npx dsh-ps2-hanhua
+```
+
+装完在对话里说 **「开始汉化」** 就能触发。
+
+其他命令：
+
+```bash
+npx dsh-ps2-hanhua --dir <路径>    # 装到指定目录
+npx dsh-ps2-hanhua --check        # 检查是否已装
+npx dsh-ps2-hanhua --force        # 覆盖安装
+npx dsh-ps2-hanhua --help         # 查看帮助
+```
+
+不想用 npm 也行，去 [Releases](https://github.com/yymz072-beep/dsh-ps2-hanhua/releases) 下载 zip，解压到 `~/.dsh/skills/` 目录即可。
+
+---
+
+## 它是什么
 
 你在对话里说「开始汉化」，它会按固定流程推进：
 
