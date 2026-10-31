@@ -1,0 +1,9 @@
+*.iso
+*.bin
+*.png
+*.jpg
+*.xlsx
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
