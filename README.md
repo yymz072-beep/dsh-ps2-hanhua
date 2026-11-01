@@ -14,33 +14,22 @@
 
 ```bash
 npm i -g dsh-ps2-hanhua
-dsh-ps2-hanhua
 ```
 
 装完在对话里说 **「开始汉化」** 就能触发。
 
-其他命令：
+### 其他参数
 
 ```bash
-dsh-ps2-hanhua --dir <路径>    # 装到指定目录
-dsh-ps2-hanhua --check        # 检查是否已装
-dsh-ps2-hanhua --force        # 覆盖安装
-dsh-ps2-hanhua --help         # 查看帮助
+dsh-ps2-hanhua --dir <路径>   # 装到指定目录，默认 ~/.dsh/skills/
+dsh-ps2-hanhua --check       # 只检查装没装，不动文件
+dsh-ps2-hanhua --force       # 已经装了，强制覆盖
+dsh-ps2-hanhua --help        # 看这个帮助
 ```
 
-<details>
-<summary>不想全局安装？用 npx 跑一次就行</summary>
+### 不用包管理器
 
-`npx` 是 npm 自带的临时运行器，下载、执行、不留痕迹：
-
-```bash
-npx dsh-ps2-hanhua
-```
-
-它和 `npm i -g` 的区别只有一点：**装不装到系统里**。这是个一次性的安装器，跑一次把技能文件拷到 `~/.dsh/skills/` 就完事了，没必要常驻。
-</details>
-
-不想用包管理器也行，去 [Releases](https://github.com/yymz072-beep/dsh-ps2-hanhua/releases) 下载 zip，解压到 `~/.dsh/skills/` 目录即可。
+去 [Releases](https://github.com/yymz072-beep/dsh-ps2-hanhua/releases) 下载 zip，解压到 `~/.dsh/skills/` 目录即可。
 
 ---
 
