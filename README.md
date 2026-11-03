@@ -1,8 +1,8 @@
-# dsh-ps2-hanhua
+# ps2-game-hanhua
 
-[![npm version](https://img.shields.io/npm/v/dsh-ps2-hanhua.svg)](https://www.npmjs.com/package/dsh-ps2-hanhua)
-[![license](https://img.shields.io/npm/l/dsh-ps2-hanhua.svg)](LICENSE)
-[![downloads](https://img.shields.io/npm/dm/dsh-ps2-hanhua.svg)](https://www.npmjs.com/package/dsh-ps2-hanhua)
+[![npm version](https://img.shields.io/npm/v/ps2-game-hanhua.svg)](https://www.npmjs.com/package/ps2-game-hanhua)
+[![license](https://img.shields.io/npm/l/ps2-game-hanhua.svg)](LICENSE)
+[![downloads](https://img.shields.io/npm/dm/ps2-game-hanhua.svg)](https://www.npmjs.com/package/ps2-game-hanhua)
 
 一个给 AI 用的 **PS2 游戏汉化向导技能**。
 
@@ -29,7 +29,7 @@
 ## 安装
 
 ```bash
-npm i -g dsh-ps2-hanhua
+npm i -g ps2-game-hanhua
 ```
 
 装完在对话里说 **「开始汉化」** 就能触发。
@@ -37,20 +37,20 @@ npm i -g dsh-ps2-hanhua
 ### 其他参数
 
 ```bash
-dsh-ps2-hanhua --dir <路径>   # 装到指定目录，默认 ~/.dsh/skills/
-dsh-ps2-hanhua --check       # 只检查装没装，不动文件
-dsh-ps2-hanhua --force       # 已经装了，强制覆盖
-dsh-ps2-hanhua --help        # 看这个帮助
+ps2-game-hanhua --dir <路径>   # 装到指定目录，默认 ~/.dsh/skills/
+ps2-game-hanhua --check       # 只检查装没装，不动文件
+ps2-game-hanhua --force       # 已经装了，强制覆盖
+ps2-game-hanhua --help        # 看这个帮助
 ```
 
 ### 不用包管理器
 
-去 [Releases](https://github.com/yymz072-beep/dsh-ps2-hanhua/releases) 下载 zip，解压到 `~/.dsh/skills/` 目录即可。
+去 [Releases](https://github.com/yymz072-beep/ps2-game-hanhua/releases) 下载 zip，解压到 `~/.dsh/skills/` 目录即可。
 
 目录结构是这样：
 
 ```
-~/.dsh/skills/dsh-ps2-hanhua/
+~/.dsh/skills/ps2-game-hanhua/
 ├── SKILL.md
 └── references/
     └── technical-notes.md
