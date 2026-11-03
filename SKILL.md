@@ -1,5 +1,5 @@
 ---
-name: dsh-ps2-hanhua
+name: ps2-game-hanhua
 description: PS2 游戏汉化向导。当用户说"开始汉化""帮我汉化这个游戏""把 PS2 游戏翻成中文""汉化这个镜像"或类似说法时使用。按阶段推进，每个决定先问用户，不擅自做主；缺东西向用户要，不确定就问。
 disable-model-invocation: false
 ---
